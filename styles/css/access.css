@@ -1,5 +1,50 @@
 .access {
   width: 100vw;
-  height: 400px;
+  height: 1664px;
   background-color: #fafafa;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 99px;
+  font-size: 24px;
+}
+
+.time {
+  display: inline-block;
+  margin-top: 40.06px;
+  margin-left: 167px;
+  margin-right: 184.87px;
+  font-size: 20px;
+}
+
+.sunday {
+  color: green;
+  font-size: 24px;
+
+  margin-left: 736.09px;
+  margin-right: 167px;
+}
+
+.address {
+  margin-top: 40.01px;
+  margin-left: 167px;
+  margin-right: 184.87px;
+  font-size: 20px;
+}
+.station {
+  margin-top: 40.01px;
+  margin-left: 167px;
+  margin-right: 184.87px;
+  font-size: 20px;
+}
+
+hr {
+  margin-left: 167px;
+  margin-right: 184.87px;
+}
+
+.image2 {
+  text-align: center;
+  margin-top: 101.38px;
 }

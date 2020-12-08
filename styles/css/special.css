@@ -1,4 +1,26 @@
 .special {
+  position: relative;
   width: 100vw;
-  height: 400px;
+  height: 1344px;
+}
+
+.main {
+  width: 83%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 48px;
+  font-family: "Roboto";
+}
+
+.HONEY1 {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.HONEY2 {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
 }
