@@ -22,6 +22,7 @@
   font-weight: normal;
 }
 header {
+  color: white;
   background-color: green;
   width: 100vw;
   height: 100px;
@@ -31,4 +32,98 @@ footer {
   background-color: green;
   width: 100vw;
   height: 100px;
+}
+
+.logo img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 53px;
+  top: 0px;
+  background: url(img logo.jpg);
+  border-radius: 349px;
+}
+
+.header1 {
+  position: absolute;
+  width: 112px;
+  height: 33px;
+  left: 258px;
+  top: 33px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.header2 {
+  position: absolute;
+  width: 82px;
+  height: 33px;
+  left: 470px;
+  top: 33px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.header3 {
+  position: absolute;
+  width: 94px;
+  height: 33px;
+  left: 652px;
+  top: 33px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.header4 {
+  position: absolute;
+  width: 92px;
+  height: 33px;
+  left: 846px;
+  top: 33px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.header5 {
+  position: absolute;
+  width: 98px;
+  height: 33px;
+  left: 1038px;
+  top: 33px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.footer {
+  position: absolute;
+  width: 284px;
+  height: 80px;
+  left: 865px;
+  top: 6485px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
 }
