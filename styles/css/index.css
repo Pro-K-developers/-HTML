@@ -39,7 +39,7 @@ footer {
   justify-content: flex-end;
   list-style: none;
   overflow: hidden;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -52,21 +52,23 @@ footer {
   border-radius: 349px;
 }
 
-#header-nav {
+.header-nav,
+.footer-nav {
   list-style: none;
   overflow: hidden;
 }
 
-#header-nav li {
+.header-nav li {
   width: 200px;
   font-size: 28px;
   float: left;
 }
 
-#header-nav li a {
+.header-nav li a,
+.footer-nav li {
   text-decoration: none;
   color: #fff;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
 }
