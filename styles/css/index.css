@@ -27,6 +27,7 @@ header {
   background-color: green;
   width: 100vw;
   height: 100px;
+  display: flex;
   justify-content: space-evenly;
 }
 
@@ -34,10 +35,16 @@ footer {
   background-color: green;
   width: 100vw;
   height: 100px;
-}
-
-.header {
-  justify-content: space-evenly;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  overflow: hidden;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
 }
 
 .logo img {
@@ -45,35 +52,21 @@ footer {
   border-radius: 349px;
 }
 
-#nav {
+#header-nav {
   list-style: none;
   overflow: hidden;
 }
 
-#nav li {
+#header-nav li {
   width: 200px;
   font-size: 28px;
   float: left;
 }
 
-#nav li a {
+#header-nav li a {
   text-decoration: none;
   color: #fff;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-}
-
-#nav2 {
-  list-style: none;
-  overflow: hidden;
-  justify-content: flex-end;
-
-#nav2 li a {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  color: #ffffff;
 }
