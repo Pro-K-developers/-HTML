@@ -25,7 +25,6 @@
 }
 
 header {
-  color: white;
   background-color: green;
   width: 100vw;
   display: flex;
@@ -35,29 +34,23 @@ header {
 
 footer {
   background-color: green;
-  width: 100vw;
   display: flex;
   justify-content: flex-end;
   align-content: space-around;
-  list-style: none;
   overflow: hidden;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 16px;
-  color: #ffffff;
+  padding: 2rem 0;
 }
 
 .logo img {
   background: url(img logo.jpg);
-  border-radius: 349px;
+  border-radius: 100%;
 }
 
 .header-nav,
 .footer-nav {
   list-style: none;
-  overflow: hidden;
 }
 
 .header-nav li {
@@ -70,7 +63,4 @@ footer {
 .footer-nav li {
   text-decoration: none;
   color: #fff;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: normal;
 }
