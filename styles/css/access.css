@@ -1,5 +1,58 @@
 #access {
   width: 100vw;
-  height: 400px;
+  height: 140vw;
   background-color: #fafafa;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 8.3vw;
+  font-size: 2vw;
+}
+
+.time {
+  display: inline-block;
+  margin-top: 3.3vw;
+  margin-left: 14vw;
+
+  font-size: 1.7vw;
+}
+
+.sunday {
+  color: green;
+  font-size: 2vw;
+
+  margin-left: 61vw;
+}
+
+.address {
+  margin-top: 3.3vw;
+  margin-left: 14vw;
+
+  font-size: 1.7vw;
+}
+.station {
+  margin-top: 3.3vw;
+  margin-left: 14vw;
+
+  font-size: 1.7vw;
+}
+
+hr {
+  margin-left: 14vw;
+  margin-right: 14vw;
+  color: #c4c4c4;
+}
+
+.image2 {
+  text-align: center;
+  margin-top: 8.3vw;
+}
+
+.image2 img {
+  width: 75vw;
+  height: auto;
+}
+
+@media screen and (max-width: 560px) {
 }

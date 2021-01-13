@@ -1,6 +1,8 @@
 * {
   color: #111;
   font-family: Roboto;
+  margin: 0;
+  padding: 0;
 }
 
 .title-wrap {

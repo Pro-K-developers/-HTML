@@ -1,4 +1,25 @@
 #contact {
   width: 100vw;
-  height: 400px;
+  height: 1000px;
+  background: #FFF7F7;
+}
+/* 小見出しと灰色部分を配置する（flexbox） */
+.sns-container-tag{
+  display: flex;
+  justify-content: space-around;
+}
+.sns-container-item{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* 小見出しと灰色部分のスタイル指定（色、余白指定） */
+.tag-item{
+  color: #006400;
+  padding:3%;
+}
+
+.image-item{
+  background: #c4c4c4;
+  padding:10% 2%;
 }
