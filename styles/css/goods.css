@@ -1,41 +1,43 @@
 /* 背景 */
 .goods {
-  height: 1820px;
   width: 100vw;
 }
 
 /* 画像と説明文を二つのボックスで横並びに */
 .container {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
-  padding:10% 5% ;
+  padding: 10% 5%;
 }
 
 /* 上のflexboxを反転 */
 .container-reverse {
   display: flex;
   flex-direction: row-reverse;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
-  padding:10% 5% ;
+  padding: 10% 5%;
   flex-grow: 1;
 }
 
 /* 説明文ボックスを中央寄せ、縦並びに */
-.details{
+.details {
   display: flex;
-  justify-content:center
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* サブタイトル */
 .item-tag {
   color: #006400bd;
   font-size: 42px;
+  font-weight: 100;
 }
 
 /* 説明文 */
-p{
+p {
   display: block;
   font-size: 36px;
   line-height: 42px;
@@ -43,7 +45,7 @@ p{
 }
 
 /* イメージ画像 */
-.item-images{
+.item-images {
   width: 477px;
   height: 360px;
   border-radius: 60px;

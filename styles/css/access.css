@@ -41,12 +41,14 @@ h2 {
 hr {
   margin-left: 14vw;
   margin-right: 14vw;
+  color: #c4c4c4;
 }
 
 .image2 {
   text-align: center;
   margin-top: 8.3vw;
 }
+
 .image2 img {
   width: 75vw;
   height: auto;
