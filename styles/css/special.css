@@ -1,26 +1,28 @@
 .special {
   position: relative;
   width: 100vw;
-  height: 1344px;
+  height: 112vw;
 }
 
 .main {
   width: 83%;
-  margin-top: 100px;
+  margin-top: 8.3vw;
   margin-left: auto;
   margin-right: auto;
-  font-size: 48px;
+  font-size: 3vw;
   font-family: "Roboto";
 }
 
-.HONEY1 {
-  margin-top: 100px;
+.image-wrap {
+  margin-top: 8.3vw;
   display: flex;
   justify-content: space-around;
 }
 
-.HONEY2 {
-  margin-top: 100px;
-  display: flex;
-  justify-content: space-around;
+.image-wrap img {
+  width: 17vw;
+  height: auto;
+}
+
+@media screen and (max-width: 560px) {
 }
