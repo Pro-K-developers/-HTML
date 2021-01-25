@@ -28,6 +28,14 @@
   display: none;
 }
 
+.menu-content {
+  display: none;
+}
+
+#checkbox1 {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   header {
     background-color: green;
@@ -71,7 +79,7 @@
     color: #fff;
   }
 
-  .hamburger {
+  .three-lines {
     display: none;
   }
 
@@ -146,7 +154,7 @@
     color: #fff;
   }
 
-  .hamburger {
+  .three-lines {
     color: #fff;
     font-size: 53px;
     transform: scale(1.5, 1.4);
@@ -162,7 +170,7 @@
     display: inline;
   }
 
-  input:checked ~ .hamburger {
+  input:checked ~ .three-lines {
     display: none;
   }
 
@@ -171,6 +179,7 @@
   }
 
   .top-mobile span {
+    white-space: nowrap;
     font-family: Scada;
     font-style: italic;
     font-weight: bold;
@@ -189,5 +198,32 @@
 
   .top-mobile img {
     width: 100vw;
+  }
+  .menu-content {
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 80;
+    background-color: green;
+  }
+  .menu-content ul {
+    padding: 70px 10px 0;
+  }
+  .menu-content ul li {
+    list-style: none;
+    text-align: center;
+  }
+  .menu-content ul li a {
+    display: block;
+    font-size: 28px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 9px 15px 10px 0;
+  }
+
+  input:checked ~ .menu-content {
+    display: inline;
   }
 }
