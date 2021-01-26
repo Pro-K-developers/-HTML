@@ -15,8 +15,9 @@
   </head>
   <body>
     <header>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <figure class="logo">
-        <img src="styles/images/logo.jpg" width="100px" />
+        <img src="styles/images/logo.jpg">
       </figure>
       <ul class="header-nav">
         <li><a href="#about-us">About us</a></li>
@@ -25,9 +26,31 @@
         <li><a href="#access">Access</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <input type="checkbox" id="checkbox1"/>
+      <label for="checkbox1" class="three-lines">≡</label>
+      <label for="checkbox1" class="cross">×</label>
+      <div class="menu-content">
+        <ul>
+            <li><a href="#about-us">About us</a></li>
+            <li><a href="#goods">Goods</a></li>
+            <li><a href="#feature">Feature</a></li>
+            <li><a href="#access">Access</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </header>
-    <div class="top">これはトップです！！！！！</div>
-    <div class="about-us">
+
+    <div class="top-pc">
+      <img src="styles/images/top PCver..png">
+      <span>買い物に出会いを、<br>&emsp;&emsp;&emsp;生活に彩りを。</span>
+    </div>
+
+    <div class="top-mobile">
+      <img src="styles/images/top mobile.jpg">
+      <span>買い物に出会いを、<br>&emsp;生活に彩りを。</span>
+    </div>
+
+    <div id="about-us">
       <h1 class="title-wrap">
         <span class="title">About us</span>
         <span class="subtitle">とれたのについて</span>
@@ -47,7 +70,7 @@
         </div>
       </div>
     </div>
-    <div class="goods">
+    <div id="goods">
       <h1 class="title-wrap">
         <span class="title">Goods</span>
         <span class="subtitle">商品</span>
@@ -82,7 +105,7 @@
 
       <!-- Ctrl + / でコメント表示 -->
     </div>
-    <div class="special">
+    <div id="feature">
       <h1 class="title-wrap">
         <span class="title">Feature</span>
         <span class="subtitle">イチオシ</span>
@@ -105,7 +128,7 @@
         <img src="styles/images/honey3.png" />
       </p>
     </div>
-    <div class="access">
+    <div id="access">
       <h1 class="title-wrap">
         <span class="title">Access</span>
         <span class="subtitle">店舗情報</span>
@@ -131,8 +154,7 @@
         <img src="styles/images/map.jpg" alt="" />
       </div>
     </div>
-
-    <div class="contact">
+    <div id="contact">
       <h1 class="title-wrap">
         <span class="title">Contact</span>
         <span class="subtitle">もっと知りたい方はこちらも</span>
@@ -152,7 +174,7 @@
       <ul class="footer-nav">
         <li>くにたち野菜と地域物産のお店「とれたの」</li>
         <li>TEL/FAX : 042-573-3444</li>
-        <li>E-mail: toretano@gmail.com</li>
+        <li>E-mail : toretano@gmail.com</li>
       </ul>
     </footer>
     <!--  -->
