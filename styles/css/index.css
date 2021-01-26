@@ -36,7 +36,7 @@
   left: 100%;
   z-index: 2;
   background-color: green;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .menu-content ul {
@@ -188,6 +188,9 @@
     font-size: 48px;
     transform: scale(1.5, 1.4);
     z-index: 3;
+    position: absolute;
+    top: 0;
+    right: 4%;
   }
 
   input:checked ~ .cross {
@@ -225,13 +228,12 @@
   }
 
   input:checked ~ .menu-content {
-      width: 50%;
-      height: 100%;
-      position: fixed;
-      top: 0;
-      left: 55%;
-      z-index: 2;
-      background-color: green;
-    }
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 55%;
+    z-index: 2;
+    background-color: green;
   }
 }
