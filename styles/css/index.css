@@ -29,9 +29,6 @@
 }
 
 .menu-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 50%;
   height: 100%;
   position: fixed;
@@ -40,6 +37,10 @@
   z-index: 2;
   background-color: green;
   transition: 0.5s;
+}
+
+.menu-content ul {
+  margin-top: 10rem;
 }
 
 .menu-content ul li {

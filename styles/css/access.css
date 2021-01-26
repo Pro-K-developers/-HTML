@@ -1,7 +1,5 @@
 #access {
   width: 100vw;
-  
-  
 }
 
 .title_pc {
@@ -13,7 +11,7 @@
 }
 .title_mobile {
   display: none;
-  
+
   text-align: center;
   margin-top: 8.3vw;
   font-size: 5vw;
@@ -23,7 +21,7 @@
   padding-top: 1.5em;
   border-top: solid 1px #c4c4c4;
   float: left;
-  
+
   margin-left: 14vw;
   font-size: 1.7vw;
 }
@@ -32,7 +30,7 @@
   padding-top: 1.5em;
   border-top: solid 1px #c4c4c4;
   float: left;
-  
+
   font-size: 1.7vw;
   line-height: 2;
 }
@@ -49,26 +47,25 @@
 .time1_mobile {
   display: none;
   padding-top: 1em;
-  text-align:center;
+  text-align: center;
   font-size: 4vw;
 }
 .time2_mobile {
   display: none;
   padding-top: 0.5em;
-  text-align:center;
+  text-align: center;
   font-size: 4vw;
   line-height: 2;
 }
 .time3_mobile {
   display: none;
-  padding-top:0.5em ;
-  padding-bottom:1em ;
-  text-align:center;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+  text-align: center;
   color: green;
   font-size: 4.5vw;
   line-height: 2;
 }
-
 
 .address1_pc {
   display: block;
@@ -92,15 +89,15 @@
 }
 .address1_mobile {
   display: none;
-  text-align:center;
+  text-align: center;
   font-size: 4vw;
 }
 .address2_mobile {
   display: none;
   padding-top: 0.5em;
-  text-align:center;
-  padding-bottom:1em ;
-  
+  text-align: center;
+  padding-bottom: 1em;
+
   font-size: 4vw;
   line-height: 2;
 }
@@ -128,20 +125,17 @@
 }
 .station1_mobile {
   display: none;
-  
-  
-  text-align:center ;
-  
-  
+
+  text-align: center;
+
   font-size: 4vw;
 }
 .station2_mobile {
   display: none;
-  
+
   padding-bottom: 1em;
-  text-align:center ; 
-  
-  
+  text-align: center;
+
   font-size: 4vw;
 }
 hr {
@@ -161,10 +155,25 @@ hr {
 }
 
 @media screen and (max-width: 560px) {
-  .title_pc,.time1_pc,.time2_pc,.time3_pc,.address1_pc,.address2_pc,.station1_pc,.station2_pc {
-  display:none;}
- 
-  .title_mobile,.time1_mobile,.time2_mobile,.time3_mobile,.address1_mobile,.address2_mobile,.station1_mobile,.station2_mobile{
-    display:block;
-    
+  .title_pc,
+  .time1_pc,
+  .time2_pc,
+  .time3_pc,
+  .address1_pc,
+  .address2_pc,
+  .station1_pc,
+  .station2_pc {
+    display: none;
+  }
+
+  .title_mobile,
+  .time1_mobile,
+  .time2_mobile,
+  .time3_mobile,
+  .address1_mobile,
+  .address2_mobile,
+  .station1_mobile,
+  .station2_mobile {
+    display: block;
+  }
 }
