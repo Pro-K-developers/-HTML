@@ -1,6 +1,6 @@
 #feature {
   width: 100vw;
-  height: 112vw;
+  
 }
 
 .main {
@@ -8,7 +8,7 @@
   margin-top: 8.3vw;
   margin-left: auto;
   margin-right: auto;
-  font-size: 3vw;
+  font-size: 36px;
   font-family: "Roboto";
 }
 
@@ -21,7 +21,32 @@
 .image-wrap img {
   width: 17vw;
   height: auto;
+  display:inline-block;/*PC画像を表示する*/
 }
 
-@media screen and (max-width: 560px) {
-}
+
+  .mobile-honey img {
+    width: 92vw;
+    height: auto;
+    display:none;/*スマホ画像は非表示にする*/
+  }
+
+  @media screen and (max-width: 560px) {
+    .image-wrap img{
+      display: none;/*PC画像は非表示する*/
+
+    }
+    .mobile-honey img{
+      display:inline-block;/*スマホ画像を表示する*/
+    
+    
+    }
+    .main {
+      width: 83%;
+      margin-top: 8.3vw;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 25px;
+      font-family: "Roboto";
+    }
+      
